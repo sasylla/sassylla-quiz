@@ -1,0 +1,71 @@
+.login-page {
+    width: "100%";
+    background:url("../../images/banner.jpg")  ;
+    background:linear-gradient(90deg,rgba(6,154,119,.7962535355939251) 35%,rgba(6,154,119,.8018557764902836)),url("../../images/banner.jpg")  ;
+    background-position: 50px;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+.titre-login-page {
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 300%;
+    text-align: center;
+}
+.slogan-login-page {
+    font-size: 20px;
+    line-height: 262%;
+    text-align: center;
+}
+.logo-connexion {
+    width: 50px;
+    margin-bottom: 60px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.img {
+    width: 200px ;
+}
+.m-l-r {
+    margin-left: auto;
+    margin-right: auto;
+}
+.cov {
+    font-family: "Monserrat" sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #069a77;
+    margin-bottom: 50px;
+}
+.form {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.inputBox {
+    position: relative;
+    width: 350px;
+    box-sizing: border-box;
+    height: 25px;
+    margin:10px;
+    border: 2px;
+    size: '50';
+}
+.cov {
+    margin-top: 80px;
+}

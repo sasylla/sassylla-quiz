@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "sylla-quiz",
+    "/": "sylla-quiz"
+  },
+  "targets": {}
+}

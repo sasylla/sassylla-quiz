@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat: 300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#hero {
+    font-size: 18px;
+    font-family: 'Potta One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+.containers{
+    min-height: 80vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+#hero{
+    background:url("../../images/banner.jpg")  ;
+    background-size: cover;
+    background-position: 50%;
+    background:linear-gradient(90deg,rgba(6,154,119,.7962535355939251) 35%,rgba(6,154,119,.8018557764902836)),url("../../images/banner.jpg")  ;
+    z-index: 1;
+}
+#hero .containers{
+    margin-right: "-15%";
+    margin-left: "-15%";
+}
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0, 0, 0) ;
+    opacity: .7;
+    z-index: -1;
+}
+#hero .hero{
+    max-width: 1200px;
+    margin: 0;
+    padding:0 50px;
+    justify-content: flex-start;
+}
+/*#hero h1{
+    display: block;
+    width: content;
+    font-size: 4rem;
+    position: relative;
+    color: rgb(255, 255, 255);
+}*/
+
+/*#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+}*/
+#hero h1:nth-child(1) span{
+    animation-delay: .5s;
+}
+
+#hero .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: rgb(175, 170, 170);
+    background-color: transparent;
+    border: 2px solid rgb(252, 252, 252);
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 36px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color ;
+}
+#hero .cta:hover{
+    color: white;
+    background-color:rgb(62, 110, 124);
+}
+
+
+.link{
+    padding: 5px;
+}
+
+label{
+    text-align: center;
+}
+
+
+
+
+
+
+
+.App-logo {
+    height: 10vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+/*Keyframes*/
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    } 
+}
+@keyframes text_reveal{
+    100% {
+        color: rgb(77, 34, 156);
+    }
+}
+@keyframes text_reveal_name{
+    100%{
+        color: rgb(62, 110, 124);
+        font-weight: 500;
+    }
+}
